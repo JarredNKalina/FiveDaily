@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct FiveDailyApp: App {
+    @StateObject private var authViewModel = AuthViewModel()
+    @StateObject private var navigationVM = NavigationViewModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(authViewModel)
+                .environmentObject(navigationVM)
         }
     }
 }

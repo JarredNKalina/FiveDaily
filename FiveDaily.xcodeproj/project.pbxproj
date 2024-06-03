@@ -7,16 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830C95402C07DE0D00E9F6D6 /* FDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C953F2C07DE0D00E9F6D6 /* FDButton.swift */; };
+		830C95482C0A6B7800E9F6D6 /* FDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C95472C0A6B7800E9F6D6 /* FDTextField.swift */; };
+		830C954A2C0A6B9200E9F6D6 /* FDSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C95492C0A6B9200E9F6D6 /* FDSecureField.swift */; };
+		830C954C2C0A6EED00E9F6D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C954B2C0A6EED00E9F6D6 /* LoginView.swift */; };
+		830C95512C0A6F3900E9F6D6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C95502C0A6F3900E9F6D6 /* SignUpView.swift */; };
+		830C95532C0A6FA500E9F6D6 /* FDClickableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C95522C0A6FA500E9F6D6 /* FDClickableText.swift */; };
+		830C95562C0C124B00E9F6D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C95552C0C124B00E9F6D6 /* HomeView.swift */; };
+		830C955A2C0C235300E9F6D6 /* FDToggleSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C95592C0C235300E9F6D6 /* FDToggleSecureField.swift */; };
+		830C955F2C0C2B5000E9F6D6 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C955E2C0C2B5000E9F6D6 /* Supabase.swift */; };
+		830C95692C0C3C6900E9F6D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C95682C0C3C6900E9F6D6 /* ContentView.swift */; };
+		830C956B2C0C3CA300E9F6D6 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C956A2C0C3CA300E9F6D6 /* AuthViewModel.swift */; };
+		830C956E2C0C3CEE00E9F6D6 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C956D2C0C3CEE00E9F6D6 /* NavigationViewModel.swift */; };
+		830C95752C0E202D00E9F6D6 /* PasswordRequirementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C95742C0E202D00E9F6D6 /* PasswordRequirementsView.swift */; };
 		837D68252C07D71700093B07 /* FiveDailyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D68242C07D71700093B07 /* FiveDailyApp.swift */; };
-		837D68272C07D71700093B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D68262C07D71700093B07 /* ContentView.swift */; };
 		837D68292C07D71900093B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837D68282C07D71900093B07 /* Assets.xcassets */; };
 		837D682C2C07D71900093B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837D682B2C07D71900093B07 /* Preview Assets.xcassets */; };
+		837D68342C07D7BE00093B07 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 837D68332C07D7BE00093B07 /* Auth */; };
+		837D68362C07D7BE00093B07 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 837D68352C07D7BE00093B07 /* Functions */; };
+		837D68382C07D7BE00093B07 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 837D68372C07D7BE00093B07 /* PostgREST */; };
+		837D683A2C07D7BE00093B07 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 837D68392C07D7BE00093B07 /* Realtime */; };
+		837D683C2C07D7BE00093B07 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 837D683B2C07D7BE00093B07 /* Storage */; };
+		837D683E2C07D7BE00093B07 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 837D683D2C07D7BE00093B07 /* Supabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		830C953F2C07DE0D00E9F6D6 /* FDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDButton.swift; sourceTree = "<group>"; };
+		830C95472C0A6B7800E9F6D6 /* FDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDTextField.swift; sourceTree = "<group>"; };
+		830C95492C0A6B9200E9F6D6 /* FDSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDSecureField.swift; sourceTree = "<group>"; };
+		830C954B2C0A6EED00E9F6D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		830C95502C0A6F3900E9F6D6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		830C95522C0A6FA500E9F6D6 /* FDClickableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDClickableText.swift; sourceTree = "<group>"; };
+		830C95552C0C124B00E9F6D6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		830C95592C0C235300E9F6D6 /* FDToggleSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDToggleSecureField.swift; sourceTree = "<group>"; };
+		830C955E2C0C2B5000E9F6D6 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		830C95682C0C3C6900E9F6D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		830C956A2C0C3CA300E9F6D6 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		830C956D2C0C3CEE00E9F6D6 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		830C95742C0E202D00E9F6D6 /* PasswordRequirementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRequirementsView.swift; sourceTree = "<group>"; };
 		837D68212C07D71700093B07 /* FiveDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837D68242C07D71700093B07 /* FiveDailyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDailyApp.swift; sourceTree = "<group>"; };
-		837D68262C07D71700093B07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		837D68282C07D71900093B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		837D682B2C07D71900093B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,15 +56,110 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837D68382C07D7BE00093B07 /* PostgREST in Frameworks */,
+				837D68362C07D7BE00093B07 /* Functions in Frameworks */,
+				837D683E2C07D7BE00093B07 /* Supabase in Frameworks */,
+				837D68342C07D7BE00093B07 /* Auth in Frameworks */,
+				837D683C2C07D7BE00093B07 /* Storage in Frameworks */,
+				837D683A2C07D7BE00093B07 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830C953D2C07DDEA00E9F6D6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				830C953F2C07DE0D00E9F6D6 /* FDButton.swift */,
+				830C95522C0A6FA500E9F6D6 /* FDClickableText.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		830C953E2C07DDF800E9F6D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				830C95442C0A685D00E9F6D6 /* TextFields */,
+				830C953D2C07DDEA00E9F6D6 /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		830C95432C0A67F800E9F6D6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				830C95662C0C3C2700E9F6D6 /* ContentView */,
+				830C95542C0C123800E9F6D6 /* HomeView */,
+				830C954E2C0A6F0F00E9F6D6 /* SignUpView */,
+				830C954D2C0A6F0500E9F6D6 /* LoginView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		830C95442C0A685D00E9F6D6 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				830C95472C0A6B7800E9F6D6 /* FDTextField.swift */,
+				830C95492C0A6B9200E9F6D6 /* FDSecureField.swift */,
+				830C95592C0C235300E9F6D6 /* FDToggleSecureField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		830C954D2C0A6F0500E9F6D6 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				830C954B2C0A6EED00E9F6D6 /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		830C954E2C0A6F0F00E9F6D6 /* SignUpView */ = {
+			isa = PBXGroup;
+			children = (
+				830C95502C0A6F3900E9F6D6 /* SignUpView.swift */,
+			);
+			path = SignUpView;
+			sourceTree = "<group>";
+		};
+		830C95542C0C123800E9F6D6 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				830C95552C0C124B00E9F6D6 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		830C955D2C0C2B4100E9F6D6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				830C955E2C0C2B5000E9F6D6 /* Supabase.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		830C95602C0C2C8C00E9F6D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		830C95662C0C3C2700E9F6D6 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				830C95682C0C3C6900E9F6D6 /* ContentView.swift */,
+				830C956A2C0C3CA300E9F6D6 /* AuthViewModel.swift */,
+				830C956D2C0C3CEE00E9F6D6 /* NavigationViewModel.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
 		837D68182C07D71700093B07 = {
 			isa = PBXGroup;
 			children = (
+				830C95742C0E202D00E9F6D6 /* PasswordRequirementsView.swift */,
 				837D68232C07D71700093B07 /* FiveDaily */,
 				837D68222C07D71700093B07 /* Products */,
 			);
@@ -51,10 +176,13 @@
 		837D68232C07D71700093B07 /* FiveDaily */ = {
 			isa = PBXGroup;
 			children = (
-				837D68242C07D71700093B07 /* FiveDailyApp.swift */,
-				837D68262C07D71700093B07 /* ContentView.swift */,
-				837D68282C07D71900093B07 /* Assets.xcassets */,
+				830C95602C0C2C8C00E9F6D6 /* Models */,
+				830C955D2C0C2B4100E9F6D6 /* Service */,
+				830C953E2C07DDF800E9F6D6 /* Views */,
+				830C95432C0A67F800E9F6D6 /* Screens */,
 				837D682A2C07D71900093B07 /* Preview Content */,
+				837D68282C07D71900093B07 /* Assets.xcassets */,
+				837D68242C07D71700093B07 /* FiveDailyApp.swift */,
 			);
 			path = FiveDaily;
 			sourceTree = "<group>";
@@ -83,6 +211,14 @@
 			dependencies = (
 			);
 			name = FiveDaily;
+			packageProductDependencies = (
+				837D68332C07D7BE00093B07 /* Auth */,
+				837D68352C07D7BE00093B07 /* Functions */,
+				837D68372C07D7BE00093B07 /* PostgREST */,
+				837D68392C07D7BE00093B07 /* Realtime */,
+				837D683B2C07D7BE00093B07 /* Storage */,
+				837D683D2C07D7BE00093B07 /* Supabase */,
+			);
 			productName = FiveDaily;
 			productReference = 837D68212C07D71700093B07 /* FiveDaily.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +247,9 @@
 				Base,
 			);
 			mainGroup = 837D68182C07D71700093B07;
+			packageReferences = (
+				837D68322C07D7BE00093B07 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 837D68222C07D71700093B07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +276,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837D68272C07D71700093B07 /* ContentView.swift in Sources */,
+				830C954C2C0A6EED00E9F6D6 /* LoginView.swift in Sources */,
 				837D68252C07D71700093B07 /* FiveDailyApp.swift in Sources */,
+				830C95692C0C3C6900E9F6D6 /* ContentView.swift in Sources */,
+				830C954A2C0A6B9200E9F6D6 /* FDSecureField.swift in Sources */,
+				830C95402C07DE0D00E9F6D6 /* FDButton.swift in Sources */,
+				830C95532C0A6FA500E9F6D6 /* FDClickableText.swift in Sources */,
+				830C955A2C0C235300E9F6D6 /* FDToggleSecureField.swift in Sources */,
+				830C955F2C0C2B5000E9F6D6 /* Supabase.swift in Sources */,
+				830C95562C0C124B00E9F6D6 /* HomeView.swift in Sources */,
+				830C956E2C0C3CEE00E9F6D6 /* NavigationViewModel.swift in Sources */,
+				830C95512C0A6F3900E9F6D6 /* SignUpView.swift in Sources */,
+				830C956B2C0C3CA300E9F6D6 /* AuthViewModel.swift in Sources */,
+				830C95482C0A6B7800E9F6D6 /* FDTextField.swift in Sources */,
+				830C95752C0E202D00E9F6D6 /* PasswordRequirementsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +495,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		837D68322C07D7BE00093B07 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		837D68332C07D7BE00093B07 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837D68322C07D7BE00093B07 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		837D68352C07D7BE00093B07 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837D68322C07D7BE00093B07 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		837D68372C07D7BE00093B07 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837D68322C07D7BE00093B07 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		837D68392C07D7BE00093B07 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837D68322C07D7BE00093B07 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		837D683B2C07D7BE00093B07 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837D68322C07D7BE00093B07 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		837D683D2C07D7BE00093B07 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837D68322C07D7BE00093B07 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 837D68192C07D71700093B07 /* Project object */;
 }
